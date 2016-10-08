@@ -1,2 +1,3 @@
-# panterpe
-This a Chrome extentions project.
+# Panterpe
+
+This a Chrome extentions Repo.
