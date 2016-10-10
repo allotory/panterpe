@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Google在线状态",
+    "version": "1.0",
+    "description": "监视Google是否在线",
+    "icons": {
+        "16": "images/delete.png",
+        "48": "images/delete.png",
+        "128": "images/delete.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/delete.png",
+            "38": "images/delete.png"
+        }
+    },
+    "background": {
+        "scripts": [
+            "js/status.js"
+        ]
+    },
+    "permissions": [
+        "http://www.google.com/"
+    ]
+}
