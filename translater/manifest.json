@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "划词翻译",
+    "description": "Chrome浏览器下的划词翻译扩展插件。",
+    "version": "1.0",
+    "icons": { 
+        "16": "images/icon192.png",
+        "48": "images/icon192.png",
+        "128": "images/icon192.png" 
+    },
+    "browser_action": {
+        "default_icon": {                    
+            "19": "images/icon192.png",          
+            "38": "images/icon192.png"          
+        },
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["http://*/*","https://*/*"],
+            "js": ["js/jquery-3.1.1.min.js", "js/common.js"]
+        }
+    ]
+}
