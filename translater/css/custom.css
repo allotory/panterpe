@@ -1,0 +1,27 @@
+/*
+    custom css
+*/
+
+/* Change width and height to own preferences */
+body {			
+	width: 250px;
+	height: 300px;
+    margin: 0px;
+	overflow-x: hidden;
+}
+
+.search-word {
+	margin-top: 10px;
+}
+
+.word {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.pronounce span {
+	/*color: #cccccc;*/
+	font-size: 12px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
