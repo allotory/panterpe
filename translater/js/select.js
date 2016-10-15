@@ -1,6 +1,7 @@
 // 获取页面字符
 
-// $(function(){
+$(function(){
+
 //     $("*").mouseup(function (e) {
 //         var txt;
 //         var parentOffset = $(this).offset();
@@ -11,4 +12,4 @@
 //             alert(txt);
 //         }
 //     });
-// });
+});
