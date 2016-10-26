@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Baidu Block",
+    "version": "1.0",
+    "description":"去掉Baidu与搜索无关内容",
+    "content_scripts": [
+        {
+            "matches": ["*://www.baidu.com/*"],
+            "js": ["js/block.js"]
+        }
+    ]
+}
